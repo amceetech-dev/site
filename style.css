@@ -1,0 +1,64 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #cf8893, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile-icon {
+  border-radius: 50%;
+  border-bottom: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.heading {
+  color: #cf8893;
+  font-weight: bold;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #cf8893;
+}
+
+.styled-img {
+  border-radius: 10px;
+}
+/* styling anchor tag */
+a.button {
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  background-color: #00bfff;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+a.button:hover {
+  background-color: #cf8893;
+}
+a {
+  text-decoration: none;
+}
+a.home:hover {
+  color: #00bfff;
+}
